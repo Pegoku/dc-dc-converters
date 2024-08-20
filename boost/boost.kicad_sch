@@ -2096,7 +2096,7 @@
 		)
 		(uuid "fe92caed-e841-4751-b374-9ceaa3c23668")
 	)
-	(text_box "5V-40V to 8-60V 5A DC-DC"
+	(text_box "5V-40V to 18-60V 5A DC-DC"
 		(exclude_from_sim no)
 		(at 67.31 19.05 0)
 		(size 22.86 5.08)
@@ -2168,6 +2168,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5137764"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "098feb96-d9bc-4ebd-8f91-d46ade5e88e0")
 		)
@@ -2202,7 +2211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16k"
+		(property "Value" "41k"
 			(at 147.32 53.3399 0)
 			(effects
 				(font
@@ -2372,7 +2381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 91.1352 91.44 0)
 			(effects
 				(font
@@ -2433,7 +2442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "125k"
+		(property "Value" "100k"
 			(at 148.59 63.4999 0)
 			(effects
 				(font
@@ -2442,7 +2451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 143.002 62.23 90)
 			(effects
 				(font
@@ -2510,7 +2519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 55.88 72.898 90)
 			(effects
 				(font
@@ -2530,6 +2539,15 @@
 		)
 		(property "Description" "Fuse"
 			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C553937"
+			(at 55.88 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 176.8348 69.85 0)
 			(effects
 				(font
@@ -2720,7 +2738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 143.002 86.36 90)
 			(effects
 				(font
@@ -3059,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4"
 			(at 97.79 36.83 0)
 			(effects
 				(font
@@ -3079,6 +3097,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18213939"
+			(at 97.79 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 73.9648 91.44 0)
 			(effects
 				(font
