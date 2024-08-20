@@ -2220,7 +2220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 143.002 52.07 90)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 163.5252 69.85 0)
 			(effects
 				(font
