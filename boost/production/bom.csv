@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C4",CP_Elec_10x10.5,2,220uF/60V,
+"C2, C3",1206,2,1uF,
+D1,TO-252-2,1,MBRD1045,C5137764
+F1,1206,1,5A,C553937
+"J1, J2","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",2,Screw_Terminal_01x02,
+L1,C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4,1,47uH/6A,C18213939
+R1,1206,1,41k,
+R2,1206,1,3k,
+R3,Potentiometer_Bourns_3266Y_Vertical,1,100k,
+U1,TO-263-5_L10.2-W9.9-P1.70-LS14.4-TL,1,XL6019E1,C73018

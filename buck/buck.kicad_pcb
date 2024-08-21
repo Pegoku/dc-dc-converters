@@ -3405,7 +3405,7 @@
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "R3"
-			(at -2.54 -3.66 360)
+			(at -2.54 -3.66 0)
 			(layer "F.SilkS")
 			(uuid "f7ef1f0b-98c3-4aa7-ace9-5dcf1158b6c9")
 			(effects
@@ -3416,7 +3416,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -2.54 3.67 360)
+			(at -2.54 3.67 0)
 			(layer "F.Fab")
 			(uuid "05e80bd1-f78e-4118-a830-efe6bc475e19")
 			(effects
@@ -3622,7 +3622,7 @@
 			(uuid "ad91912b-f293-4f69-ad87-93ea3042f3c4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.175 0.005 360)
+			(at -3.175 0.005 0)
 			(layer "F.Fab")
 			(uuid "02b97d56-36b7-4b6a-9f0d-6c32bd83a584")
 			(effects
@@ -3682,6 +3682,42 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "e7b80d16-d0e4-4aca-837b-2b4fb494fa40")
+	)
+	(gr_text "GND\n\n\n\n\n\n\n\n\nVout"
+		(at 116 95 0)
+		(layer "F.SilkS")
+		(uuid "79951e2d-587b-44fb-afb4-1e42dc1784bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n\n\n\n\n\n\n\n\nVin"
+		(at -38 96 0)
+		(layer "F.SilkS")
+		(uuid "8c8c1ede-bd21-4535-92d2-5f12e4e33972")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n\n\n\n\n\n\n\n\nVin"
+		(at 54 95.5 0)
+		(layer "F.SilkS")
+		(uuid "92887e47-27bc-4ac7-a618-9fcee6b78470")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 67 90.7)
@@ -4673,62 +4709,6 @@
 				(xy 88.818721 80.080977) (xy 88.763452 80.287247) (xy 88.76345 80.287258) (xy 88.744838 80.499998)
 				(xy 50.5005 80.499998) (xy 50.5005 75.6245) (xy 50.520185 75.557461) (xy 50.572989 75.511706) (xy 50.6245 75.5005)
 				(xy 121.8755 75.5005)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "B.Cu")
-		(uuid "2cce429c-e930-4d18-a0a2-a8c4a1f0c5aa")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 120 87.5) (xy 120 92.5) (xy 115 92.5) (xy 115 87.5)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "B.Cu")
-		(uuid "c1bc9b49-97fb-4a08-a5ab-c3ab82ae5f74")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 52.5 87.5) (xy 57.5 87.5) (xy 57.5 92.5) (xy 52.5 92.5)
 			)
 		)
 	)
