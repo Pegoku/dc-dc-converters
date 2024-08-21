@@ -1888,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2uF/50V"
 			(at 115.57 20.32 90)
 			(effects
 				(font
