@@ -2115,6 +2115,72 @@
 		)
 		(uuid "abd20929-b5c0-4ace-ae27-caf753e39080")
 	)
+	(global_label "GND"
+		(shape input)
+		(at 113.03 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bb3ec52-f4ff-4ceb-9cde-67940e1df3cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 108.4557 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vin"
+		(shape input)
+		(at 63.5 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2ee5746-9eb1-45a9-a117-7f37f7de51b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 65.2924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vout"
+		(shape input)
+		(at 203.2 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebbe247c-a91b-4971-a9b8-8d1dc3e93fd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.2975 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 119.38 36.83 180)
