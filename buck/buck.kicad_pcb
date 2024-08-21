@@ -89,7 +89,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "0545c12d-b64c-48cc-b569-77e3c62edc0b")
-		(at 148.8025 95.29)
+		(at 77.5 97)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D1"
@@ -2205,7 +2205,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "863aa09f-6879-46d2-929a-db08074a93f6")
-		(at 151.5675 98.44)
+		(at 96.345 84)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -3885,5 +3885,37 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(segment
+		(start 79 96.5)
+		(end 79.5 97)
+		(width 1.4)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "72480fbc-8e11-48ac-84cc-a1871b835c17")
+	)
+	(segment
+		(start 79 91.5)
+		(end 79 96.5)
+		(width 1.4)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "d44063e7-5fd7-4a68-9188-406ef26bcef5")
+	)
+	(segment
+		(start 77.3 91.5)
+		(end 77.3 95.2)
+		(width 1.4)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "68583dfe-5ce1-4f04-a25e-12e5e9023074")
+	)
+	(segment
+		(start 77.3 95.2)
+		(end 75.5 97)
+		(width 1.4)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "ecf95d5b-7ba7-4b12-83e1-de2b014f2beb")
 	)
 )

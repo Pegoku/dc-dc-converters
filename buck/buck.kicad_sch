@@ -1618,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 35.56) (xy 115.57 35.56)
+			(xy 115.57 35.56) (xy 127 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1785,16 +1785,6 @@
 			(type default)
 		)
 		(uuid "ee6b78e2-f14e-4242-91ad-2ddfd1863acd")
-	)
-	(wire
-		(pts
-			(xy 127 35.56) (xy 124.46 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0936736-8673-4089-bbcb-898e53051132")
 	)
 	(wire
 		(pts
@@ -2353,74 +2343,6 @@
 			(project "buck"
 				(path "/534ccee1-9696-4739-b4aa-2cab67d4d410"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b22f5d59-43ed-4c4d-973c-4dd0edec8fa1")
-		(property "Reference" "R2"
-			(at 120.65 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 120.65 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 120.65 37.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6792883-3e01-4363-b464-5675fa367ca9")
-		)
-		(pin "2"
-			(uuid "cf3f7cb8-02c3-476f-9c2b-efede59c4417")
-		)
-		(instances
-			(project "buck"
-				(path "/534ccee1-9696-4739-b4aa-2cab67d4d410"
-					(reference "R2")
 					(unit 1)
 				)
 			)
