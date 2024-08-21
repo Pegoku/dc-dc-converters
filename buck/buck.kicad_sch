@@ -1548,6 +1548,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 52.07) (xy 139.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38537a1f-3349-4a08-8088-9ea3678716e3")
+	)
+	(wire
+		(pts
 			(xy 127 35.56) (xy 139.7 35.56)
 		)
 		(stroke
@@ -1688,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 52.07) (xy 132.08 52.07)
+			(xy 125.73 52.07) (xy 130.81 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 135.89 52.07 90)
+		(at 134.62 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2641,7 +2651,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea41331f-7348-4da9-8dd4-9a6bac2bb1e2")
 		(property "Reference" "L1"
-			(at 135.89 46.99 90)
+			(at 134.62 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,15 +2659,15 @@
 			)
 		)
 		(property "Value" "470"
-			(at 135.89 49.53 90)
+			(at 134.62 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 52.07 0)
+		(property "Footprint" "Inductor_SMD:L_SXN_SMDRI127"
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 52.07 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2685,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 135.89 52.07 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
