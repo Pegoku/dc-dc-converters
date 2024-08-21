@@ -1896,7 +1896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 119.38 24.4348 0)
 			(effects
 				(font
@@ -2170,7 +2170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
 			(at 78.4352 57.15 0)
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -2374,7 +2374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 120.65 37.338 90)
 			(effects
 				(font
@@ -2442,7 +2442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 111.76 33.782 90)
 			(effects
 				(font
@@ -2724,7 +2724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 97.79 37.338 90)
 			(effects
 				(font
@@ -2852,7 +2852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "260uF/35V"
+		(property "Value" "220uF/35V"
 			(at 143.51 56.2609 0)
 			(effects
 				(font
@@ -2861,7 +2861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 140.6652 59.69 0)
 			(effects
 				(font
